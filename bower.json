@@ -1,0 +1,24 @@
+{
+  "name": "co-angular-cropper",
+  "version": "1.0.0",
+  "authors": [
+    "Nizar Oukhchi"
+  ],
+  "description": "An angular image cropper",
+  "keywords": [
+    "angular",
+    "cropper"
+  ],
+    "main": [
+    "dist/js/co-angular-cropper.js",
+    "dist/css/co-angular-cropper.css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

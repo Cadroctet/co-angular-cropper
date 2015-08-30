@@ -1,0 +1,26 @@
+// This is the background color for the source image
+// when a selection is made this color passes through the opacity
+$img-bg-color:             #000 !default;
+// When an image is being loaded a preloader is displayed
+$crop-loader-bg:           #fff !default;
+$crop-loader-size:         40px !default;
+$crop-loader-border-color: #B52E31 !default;
+$crop-loader-inner-bg:     #F6F6F6 !default;
+// The selected area border
+$selection-border:         1px solid #fff !default;
+// The rule of thirds (ROT) grid color
+$rot-grid-color:           #fff !default;
+// Corner handles style
+$corner-handle-size:       20px !default;
+$corner-handle-bg:         #fff !default;
+$corner-handle-radius:     50% !default;
+// Center handles style
+$center-handle-size:       10px !default;
+$center-handle-bg:         rgba(0, 0, 0, 0.5) !default;
+$center-handle-border:     1px solid #fff !default;
+$center-handle-radius:     0 !default;
+// Size hint style
+$size-hint-color:          #FFF !default;
+$size-hint-bg:             rgba(0, 0, 0, 0.7) !default;
+$size-hint-padding:        2px 3px !default;
+$size-hint-border-radius:  4px !default;

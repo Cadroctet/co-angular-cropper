@@ -1,0 +1,32 @@
+.cropper-loading {
+	.crop-loader {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: $crop-loader-size;
+		height: ($crop-loader-size / 100) * 115; // 15% more on the height
+		z-index: 101;
+		border-color: $crop-loader-border-color;
+		border-style: solid;
+		border-width: ($crop-loader-size / 100) * 10;
+		margin-left: -($crop-loader-size / 2);
+		margin-top: -((($crop-loader-size / 100) * 115) / 2);
+		-webkit-animation: crop-loader 4s infinite ease;
+        		animation: crop-loader 4s infinite ease;
+    .crop-loader-inner {
+    	vertical-align: top;
+		  display: inline-block;
+		  width: 100%;
+		  background-color: $crop-loader-inner-bg;
+		  -webkit-animation: crop-loader-inner 4s infinite ease-in;
+		  				animation: crop-loader-inner 4s infinite ease-in;
+    }
+	}
+	&:before {
+		position: absolute;
+		top: 0; bottom: 0; left: 0; right: 0;
+		content: "";
+		background: $crop-loader-bg;
+		z-index: 101;
+	}
+}
